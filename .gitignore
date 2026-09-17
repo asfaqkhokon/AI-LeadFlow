@@ -1,0 +1,45 @@
+# Environment / secrets
+
+# n8n data
+.n8n/
+
+# Docker
+docker-compose.override.yml
+
+# Logs
+*.log
+logs/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE / editors
+.vscode/
+.idea/
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Build output
+dist/
+build/
+
+# Temporary files
+tmp/
+temp/
+
+# Local database / data
+*.sqlite
+*.sqlite3
+
+# Coverage
+coverage/
+
+# Cache
+.cache/
